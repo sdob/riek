@@ -25,12 +25,14 @@
     "build": "npm run build-lib && npm run build-demo"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.5.4",
-    "react-dom": "^0.14.0 || ^15.5.4"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "dependencies": {
     "debug": "^2.6.8",
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.5.10",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.4.0",
@@ -39,8 +41,8 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-1": "^6.3.13",
-    "highlight.js": "^9.1.0",
-    "react-highlight": "^0.6.1",
+    "highlight.js": "^9.12.0",
+    "react-highlight": "https://github.com/sdob/react-highlight.git",
     "webpack": "^1.12.11"
   }
 }
